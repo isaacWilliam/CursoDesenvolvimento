@@ -1,0 +1,14 @@
+C:\Users\DELL\Documents\CursoDesenvolvimento\programacao\bin\Debug\net7.0\programacao.exe
+C:\Users\DELL\Documents\CursoDesenvolvimento\programacao\bin\Debug\net7.0\programacao.deps.json
+C:\Users\DELL\Documents\CursoDesenvolvimento\programacao\bin\Debug\net7.0\programacao.runtimeconfig.json
+C:\Users\DELL\Documents\CursoDesenvolvimento\programacao\bin\Debug\net7.0\programacao.dll
+C:\Users\DELL\Documents\CursoDesenvolvimento\programacao\bin\Debug\net7.0\programacao.pdb
+C:\Users\DELL\Documents\CursoDesenvolvimento\programacao\obj\Debug\net7.0\programacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Documents\CursoDesenvolvimento\programacao\obj\Debug\net7.0\programacao.AssemblyInfoInputs.cache
+C:\Users\DELL\Documents\CursoDesenvolvimento\programacao\obj\Debug\net7.0\programacao.AssemblyInfo.cs
+C:\Users\DELL\Documents\CursoDesenvolvimento\programacao\obj\Debug\net7.0\programacao.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\CursoDesenvolvimento\programacao\obj\Debug\net7.0\programacao.dll
+C:\Users\DELL\Documents\CursoDesenvolvimento\programacao\obj\Debug\net7.0\refint\programacao.dll
+C:\Users\DELL\Documents\CursoDesenvolvimento\programacao\obj\Debug\net7.0\programacao.pdb
+C:\Users\DELL\Documents\CursoDesenvolvimento\programacao\obj\Debug\net7.0\programacao.genruntimeconfig.cache
+C:\Users\DELL\Documents\CursoDesenvolvimento\programacao\obj\Debug\net7.0\ref\programacao.dll
