@@ -7,18 +7,17 @@ public class PlanosAssinatura
         {
             int idade;
             float orcamento;
-            int plano = 0;
             float valorPLano = 0;
             Planos planoEscolhido = 0;
             Boolean temDesconto = false;
 
-            Console.WriteLine("Digite sua idade");
+            Console.WriteLine(" Digite sua idade: \n");
             idade = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Digite seu orçamento: ");
+            Console.WriteLine(" Digite seu orçamento: \n");
             orcamento = float.Parse(Console.ReadLine());
 
-            Console.WriteLine("Digite 'sim' se possuir desconto");
+            Console.WriteLine(" Digite 'sim' se possuir desconto: \n");
             string desconto = Console.ReadLine();
 
             if (desconto == "sim")
@@ -28,9 +27,10 @@ public class PlanosAssinatura
 
             if (idade >= 18)
             {
+                int plano = 0;
                 if (idade <= 30)
                 {
-                    Console.WriteLine("Suas opções de planos São.\n Plano Padrão 50,00. Digite (0).\n Plano Premium 80,00. Digite (1)");
+                    Console.WriteLine(" Suas opções de planos São.\n Plano Padrão 50,00. Digite (0).\n Plano Premium 80,00. Digite (1)");
                     plano = int.Parse(Console.ReadLine());
                     planoEscolhido = (Planos)plano;
                     if (Planos.Padrao == planoEscolhido)
@@ -44,7 +44,7 @@ public class PlanosAssinatura
                 }
                 else
                 {
-                    Console.WriteLine("Suas opções de planos São.\n Plano Padrão 70,00. Digite (2).\n Plano Premium 100,00. Digite (3)");
+                    Console.WriteLine(" Suas opções de planos São.\n Plano Padrão 70,00. Digite (2).\n Plano Premium 100,00. Digite (3)");
                     plano = int.Parse(Console.ReadLine());
                     planoEscolhido = (Planos)plano;
 
@@ -62,17 +62,17 @@ public class PlanosAssinatura
             }
             else
             {
-                Console.WriteLine("Você é menor de idade. Não pode escolher um plano.");
+                Console.WriteLine(" Você é menor de idade. Não pode escolher um plano.");
             }
 
             if (temDesconto)
             {
                 valorPLano = valorPLano - ((valorPLano * 20) / 100);
-                Console.WriteLine("Seu Plano é o " + planoEscolhido + ", o valor é de " + valorPLano.ToString("C"));
+                Console.WriteLine(" Seu Plano é o " + planoEscolhido + ", o valor é de " + valorPLano.ToString("C"));
             }
             else
             {
-                Console.WriteLine("Seu Plano é o " + planoEscolhido + ", o valor é de " + valorPLano.ToString("C"));
+                Console.WriteLine(" Seu Plano é o " + planoEscolhido + ", o valor é de " + valorPLano.ToString("C"));
             }
         }
         catch
