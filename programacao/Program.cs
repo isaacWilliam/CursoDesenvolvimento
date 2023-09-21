@@ -6,8 +6,7 @@ public class PlanosAssinatura
         try
         {
             int idade;
-            float orcamento;
-            float valorPLano = 0;
+            float orcamento, valorPLano = 0;
             Planos planoEscolhido = 0;
             Boolean temDesconto = false;
 
@@ -17,9 +16,8 @@ public class PlanosAssinatura
             Console.WriteLine(" Digite seu orçamento: \n");
             orcamento = float.Parse(Console.ReadLine());
 
-            Console.WriteLine(" Digite 'sim' se possuir desconto: \n");
+            Console.WriteLine(" Digite 'sim' se você possuir desconto: \n");
             string desconto = Console.ReadLine();
-
             if (desconto == "sim")
             {
                 temDesconto = true;
